@@ -82,6 +82,7 @@ main {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: block;
 }
 
 .main-nav__item {
@@ -135,7 +136,7 @@ main {
 .main-footer {
   background: black;
   padding: 2rem;
-  margin-top: 3rem;
+  margin-top: 5rem;
 }
 
 .main-footer__links {
@@ -158,13 +159,6 @@ main {
 .main-footer__link a:hover,
 .main-footer__link a:active {
   color: #ccc;
-}
-
-@media (min-width: 40rem) {
-  .main-footer__link {
-    display: inline-block;
-    margin: 0 1rem;
-  }
 }
 
 .mobile-nav {
@@ -214,6 +208,13 @@ main {
 
 .button:focus {
   outline: none;
+}
+
+@media (min-width: 40rem) {
+  .main-footer__link {
+    display: inline-block;
+    margin: 0 1rem;
+  }
 }
 
 .open {

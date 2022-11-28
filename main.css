@@ -12,7 +12,6 @@
   /* background-image: radial-gradient(ellipse farthest-corner at 20% 50%, red, blue 70%, green); */
   width: 100vw;
   height: 33vh;
-  margin-top: 3.5rem;
   /* border: 5px dashed red; */
   position: relative;
 }
@@ -125,10 +124,10 @@
   text-align: center;
 }
 
- .key-feature {
+ /* .key-feature {
   display: inline-block;
   width: 30%;
-} 
+}  */
 
 .key-feature__image {
   background: #ffcede;
@@ -150,10 +149,10 @@
 @media (max-width: 40rem) {
   .key-feature {
     width: 30%;
-    display: block;
+    display: inline-block;
     max-width: 25rem;
     margin: auto;
-    /* vertical-align: top; */
+    vertical-align: top;
   }
 }
 
